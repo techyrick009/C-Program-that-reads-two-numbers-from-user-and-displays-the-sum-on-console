@@ -1,0 +1,27 @@
+
+/*
+ Copyright   : Techyrick.com
+ Description : C Program that reads two numbers from user and displays the
+ sum on console
+ ============================================================================
+ */
+
+#include<stdio.h> 
+#include 
+
+int main(void) {
+
+	int a,b,sum;
+
+	printf("C Program to find Sum of Two Numbers :");
+	printf("\nEnter No. A : ");
+	scanf("%d",&a);
+	printf("Enter No. B : ");
+	scanf("%d",&b);
+	sum = a+b;
+
+   printf("\n Sum %d + %d = %d", a,b,sum);
+
+	return 0;
+}
+
